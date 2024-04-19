@@ -28,7 +28,7 @@ What things you need to install the software and how to install them:
     docker compose up
     ```
 
-Now, the application should be running at `localhost:8888`.
+Now, the jupoyter server should be running at `localhost:8888`. and the terminal should have the key to access the server.
 
 Alternatively you can copy `fermsim.ipynb` into an already working environment
 
