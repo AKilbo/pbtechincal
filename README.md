@@ -1,4 +1,4 @@
-# Techincal takehome for Pow Bio
+# Techincal takehome for P. Bio
 
 ## Getting Started
 
