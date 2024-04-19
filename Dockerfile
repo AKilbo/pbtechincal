@@ -14,7 +14,7 @@ COPY pyproject.toml /app/
 RUN poetry config virtualenvs.create false \
   && poetry install --no-interaction --no-ansi
 
-# Make port 8050 available to the world outside this container
+# Make port 8888 available to the world outside this container
 EXPOSE 8888
 
 # Run Jupyter notebook when the container launches
