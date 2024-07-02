@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This repository includes the simulations for the Data Scientist technical problems. These instructions will get you a copy of the project up and running on your local machine
+This repository includes the simulations for the Data Scientist technical problems.
 
 The notebook used to help solve the problems is `fermsim.ipynb` 
 
