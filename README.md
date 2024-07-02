@@ -1,4 +1,4 @@
-# Techincal takehome for P. B.
+# Technical takehome for P. B.
 
 ## Getting Started
 
