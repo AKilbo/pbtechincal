@@ -4,15 +4,21 @@ FROM python:latest
 # Set the working directory in the container to /app
 WORKDIR /app
 
-# Install Poetry
-RUN pip install poetry
+# Install Poetry and wget
+RUN pip install poetry \
+  && apt-get update \
+  && apt-get install -y wget
 
 # Copy only requirements to cache them in docker layer
 COPY pyproject.toml /app/
 
 # Install project dependencies
 RUN poetry config virtualenvs.create false \
-  && poetry install --no-interaction --no-ansi
+  && poetry install 
+
+
+# Copy the current directory contents into the container at /app
+COPY . /app
 
 # Make port 8888 available to the world outside this container
 EXPOSE 8888
